@@ -1,0 +1,916 @@
+<https://w3id.org/def/wineRapOnto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/def/wineRapOnto> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/def/wineRapOnto/1.0.0> .
+<https://w3id.org/def/wineRapOnto> <http://purl.org/dc/elements/1.1/authors> "Ricardo Arcega Aperte\nRoberto Acha Paz" .
+<https://w3id.org/def/wineRapOnto> <http://www.w3.org/2000/01/rdf-schema#label> "wineRapOnto" .
+<https://w3id.org/def/wineRapOnto> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/authors
+<http://purl.org/dc/elements/1.1/authors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/def/wineRapOnto#NumReviews
+<https://w3id.org/def/wineRapOnto#NumReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#NumReviews> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/wineRapOnto#numReviews> .
+<https://w3id.org/def/wineRapOnto#NumReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/wineRapOnto#NumReviews> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#NumReviews> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Num_reviews> .
+<https://w3id.org/def/wineRapOnto#NumReviews> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a object NumReviews" .
+<https://w3id.org/def/wineRapOnto#NumReviews> <http://www.w3.org/2000/01/rdf-schema#label> "hasNumReviews" .
+# 
+# https://w3id.org/def/wineRapOnto#acidityOf
+<https://w3id.org/def/wineRapOnto#acidityOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#acidityOf> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/wineRapOnto#hasAcidity> .
+<https://w3id.org/def/wineRapOnto#acidityOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/wineRapOnto#acidityOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Acidity> .
+<https://w3id.org/def/wineRapOnto#acidityOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#acidityOf> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an object of a wine" .
+<https://w3id.org/def/wineRapOnto#acidityOf> <http://www.w3.org/2000/01/rdf-schema#label> "acidityOf" .
+# 
+# https://w3id.org/def/wineRapOnto#bodyOf
+<https://w3id.org/def/wineRapOnto#bodyOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#bodyOf> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/wineRapOnto#hasBody> .
+<https://w3id.org/def/wineRapOnto#bodyOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/wineRapOnto#bodyOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Body> .
+<https://w3id.org/def/wineRapOnto#bodyOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#bodyOf> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an object of a wine" .
+<https://w3id.org/def/wineRapOnto#bodyOf> <http://www.w3.org/2000/01/rdf-schema#label> "bodyOf" .
+# 
+# https://w3id.org/def/wineRapOnto#hasAcidity
+<https://w3id.org/def/wineRapOnto#hasAcidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#hasAcidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/wineRapOnto#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Acidity> .
+<https://w3id.org/def/wineRapOnto#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a object acidity" .
+<https://w3id.org/def/wineRapOnto#hasAcidity> <http://www.w3.org/2000/01/rdf-schema#label> "hasAcidity" .
+# 
+# https://w3id.org/def/wineRapOnto#hasBody
+<https://w3id.org/def/wineRapOnto#hasBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#hasBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/wineRapOnto#hasBody> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#hasBody> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Body> .
+<https://w3id.org/def/wineRapOnto#hasBody> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a object body" .
+<https://w3id.org/def/wineRapOnto#hasBody> <http://www.w3.org/2000/01/rdf-schema#label> "hasBody" .
+# 
+# https://w3id.org/def/wineRapOnto#hasMeasurements
+<https://w3id.org/def/wineRapOnto#hasMeasurements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#hasMeasurements> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/wineRapOnto#measurementsOf> .
+<https://w3id.org/def/wineRapOnto#hasMeasurements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/wineRapOnto#hasMeasurements> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#hasMeasurements> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Measurements> .
+<https://w3id.org/def/wineRapOnto#hasMeasurements> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a object NumReviews" .
+<https://w3id.org/def/wineRapOnto#hasMeasurements> <http://www.w3.org/2000/01/rdf-schema#label> "hasMeasurements" .
+# 
+# https://w3id.org/def/wineRapOnto#hasPrice
+<https://w3id.org/def/wineRapOnto#hasPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#hasPrice> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/wineRapOnto#hasPrice> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/wineRapOnto#priceOf> .
+<https://w3id.org/def/wineRapOnto#hasPrice> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#hasPrice> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Price> .
+<https://w3id.org/def/wineRapOnto#hasPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a object Price" .
+<https://w3id.org/def/wineRapOnto#hasPrice> <http://www.w3.org/2000/01/rdf-schema#label> "hasPrice" .
+# 
+# https://w3id.org/def/wineRapOnto#hasRating
+<https://w3id.org/def/wineRapOnto#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#hasRating> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/wineRapOnto#ratingOf> .
+<https://w3id.org/def/wineRapOnto#hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/wineRapOnto#hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#hasRating> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Rating> .
+<https://w3id.org/def/wineRapOnto#hasRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a object Rating" .
+<https://w3id.org/def/wineRapOnto#hasRating> <http://www.w3.org/2000/01/rdf-schema#label> "hasRating" .
+# 
+# https://w3id.org/def/wineRapOnto#hasRegion
+<https://w3id.org/def/wineRapOnto#hasRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#hasRegion> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/wineRapOnto#regionOf> .
+<https://w3id.org/def/wineRapOnto#hasRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/wineRapOnto#hasRegion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#hasRegion> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Region> .
+<https://w3id.org/def/wineRapOnto#hasRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a object Region" .
+<https://w3id.org/def/wineRapOnto#hasRegion> <http://www.w3.org/2000/01/rdf-schema#label> "hasRegion" .
+# 
+# https://w3id.org/def/wineRapOnto#hasType
+<https://w3id.org/def/wineRapOnto#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#hasType> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/wineRapOnto#typeOf> .
+<https://w3id.org/def/wineRapOnto#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/wineRapOnto#hasType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#hasType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Type> .
+<https://w3id.org/def/wineRapOnto#hasType> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a object Type" .
+<https://w3id.org/def/wineRapOnto#hasType> <http://www.w3.org/2000/01/rdf-schema#label> "hasType" .
+# 
+# https://w3id.org/def/wineRapOnto#hasWinery
+<https://w3id.org/def/wineRapOnto#hasWinery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#hasWinery> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/wineRapOnto#wineryOf> .
+<https://w3id.org/def/wineRapOnto#hasWinery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/wineRapOnto#hasWinery> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#hasWinery> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Winery> .
+<https://w3id.org/def/wineRapOnto#hasWinery> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a object Winery" .
+<https://w3id.org/def/wineRapOnto#hasWinery> <http://www.w3.org/2000/01/rdf-schema#label> "hasWinery" .
+# 
+# https://w3id.org/def/wineRapOnto#measurementsOf
+<https://w3id.org/def/wineRapOnto#measurementsOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#measurementsOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Measurements> .
+<https://w3id.org/def/wineRapOnto#measurementsOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#measurementsOf> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an object of a wine" .
+<https://w3id.org/def/wineRapOnto#measurementsOf> <http://www.w3.org/2000/01/rdf-schema#label> "measurementsOf" .
+# 
+# https://w3id.org/def/wineRapOnto#numReviews
+<https://w3id.org/def/wineRapOnto#numReviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#numReviews> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Num_reviews> .
+<https://w3id.org/def/wineRapOnto#numReviews> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#numReviews> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an object of a wine" .
+<https://w3id.org/def/wineRapOnto#numReviews> <http://www.w3.org/2000/01/rdf-schema#label> "numReviewsOf" .
+# 
+# https://w3id.org/def/wineRapOnto#priceOf
+<https://w3id.org/def/wineRapOnto#priceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#priceOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Price> .
+<https://w3id.org/def/wineRapOnto#priceOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#priceOf> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an object of a wine" .
+<https://w3id.org/def/wineRapOnto#priceOf> <http://www.w3.org/2000/01/rdf-schema#label> "priceOf" .
+# 
+# https://w3id.org/def/wineRapOnto#ratingOf
+<https://w3id.org/def/wineRapOnto#ratingOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#ratingOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/wineRapOnto#ratingOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Rating> .
+<https://w3id.org/def/wineRapOnto#ratingOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#ratingOf> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an object of a wine" .
+<https://w3id.org/def/wineRapOnto#ratingOf> <http://www.w3.org/2000/01/rdf-schema#label> "ratingOf" .
+# 
+# https://w3id.org/def/wineRapOnto#regionOf
+<https://w3id.org/def/wineRapOnto#regionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#regionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/wineRapOnto#regionOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Region> .
+<https://w3id.org/def/wineRapOnto#regionOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#regionOf> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an object of a wine" .
+<https://w3id.org/def/wineRapOnto#regionOf> <http://www.w3.org/2000/01/rdf-schema#label> "regionOf" .
+# 
+# https://w3id.org/def/wineRapOnto#typeOf
+<https://w3id.org/def/wineRapOnto#typeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#typeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/wineRapOnto#typeOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Type> .
+<https://w3id.org/def/wineRapOnto#typeOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#typeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an object of a wine" .
+<https://w3id.org/def/wineRapOnto#typeOf> <http://www.w3.org/2000/01/rdf-schema#label> "typeOf" .
+# 
+# https://w3id.org/def/wineRapOnto#wineryOf
+<https://w3id.org/def/wineRapOnto#wineryOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/wineRapOnto#wineryOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/wineRapOnto#wineryOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Winery> .
+<https://w3id.org/def/wineRapOnto#wineryOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#wineryOf> <http://www.w3.org/2000/01/rdf-schema#comment> "It is an object of a wine" .
+<https://w3id.org/def/wineRapOnto#wineryOf> <http://www.w3.org/2000/01/rdf-schema#label> "wineryOf" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/def/wineRapOnto#acidityValue
+<https://w3id.org/def/wineRapOnto#acidityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/wineRapOnto#acidityValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Acidity> .
+<https://w3id.org/def/wineRapOnto#acidityValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/wineRapOnto#acidityValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a value of acidity" .
+<https://w3id.org/def/wineRapOnto#acidityValue> <http://www.w3.org/2000/01/rdf-schema#label> "hasAcidityValue" .
+# 
+# https://w3id.org/def/wineRapOnto#bodyValue
+<https://w3id.org/def/wineRapOnto#bodyValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/wineRapOnto#bodyValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Body> .
+<https://w3id.org/def/wineRapOnto#bodyValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/wineRapOnto#bodyValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a value of body" .
+<https://w3id.org/def/wineRapOnto#bodyValue> <http://www.w3.org/2000/01/rdf-schema#label> "hasBodyValue" .
+# 
+# https://w3id.org/def/wineRapOnto#hasNumReviewsValue
+<https://w3id.org/def/wineRapOnto#hasNumReviewsValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/wineRapOnto#hasNumReviewsValue> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/def/wineRapOnto#Num_reviews> .
+_:genid1 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/wineRapOnto#NumReviews> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/wineRapOnto#hasNumReviewsValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<https://w3id.org/def/wineRapOnto#hasNumReviewsValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a value of number of reviews" .
+<https://w3id.org/def/wineRapOnto#hasNumReviewsValue> <http://www.w3.org/2000/01/rdf-schema#label> "hasNumReviewsValue" .
+# 
+# https://w3id.org/def/wineRapOnto#priceValue
+<https://w3id.org/def/wineRapOnto#priceValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/wineRapOnto#priceValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Price> .
+<https://w3id.org/def/wineRapOnto#priceValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/def/wineRapOnto#priceValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a value of price" .
+<https://w3id.org/def/wineRapOnto#priceValue> <http://www.w3.org/2000/01/rdf-schema#label> "hasPriceValue" .
+# 
+# https://w3id.org/def/wineRapOnto#ratingValue
+<https://w3id.org/def/wineRapOnto#ratingValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/wineRapOnto#ratingValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Rating> .
+<https://w3id.org/def/wineRapOnto#ratingValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/def/wineRapOnto#ratingValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a value of rating" .
+<https://w3id.org/def/wineRapOnto#ratingValue> <http://www.w3.org/2000/01/rdf-schema#label> "hasRatingValue" .
+# 
+# https://w3id.org/def/wineRapOnto#regionName
+<https://w3id.org/def/wineRapOnto#regionName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/wineRapOnto#regionName> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/def/wineRapOnto#Region> .
+_:genid2 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/wineRapOnto#hasRegion> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/wineRapOnto#regionName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/wineRapOnto#regionName> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a name of region" .
+<https://w3id.org/def/wineRapOnto#regionName> <http://www.w3.org/2000/01/rdf-schema#label> "hasRegionName" .
+# 
+# https://w3id.org/def/wineRapOnto#typeName
+<https://w3id.org/def/wineRapOnto#typeName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/wineRapOnto#typeName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Type> .
+<https://w3id.org/def/wineRapOnto#typeName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/wineRapOnto#typeName> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a value of type" .
+<https://w3id.org/def/wineRapOnto#typeName> <http://www.w3.org/2000/01/rdf-schema#label> "hasTypeName" .
+# 
+# https://w3id.org/def/wineRapOnto#wineName
+<https://w3id.org/def/wineRapOnto#wineName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/wineRapOnto#wineName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#wineName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/wineRapOnto#wineName> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a name" .
+<https://w3id.org/def/wineRapOnto#wineName> <http://www.w3.org/2000/01/rdf-schema#label> "hasWineName" .
+# 
+# https://w3id.org/def/wineRapOnto#wineYear
+<https://w3id.org/def/wineRapOnto#wineYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/wineRapOnto#wineYear> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#wineYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/def/wineRapOnto#wineYear> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a value of year" .
+<https://w3id.org/def/wineRapOnto#wineYear> <http://www.w3.org/2000/01/rdf-schema#label> "hasWineYear" .
+# 
+# https://w3id.org/def/wineRapOnto#wineryName
+<https://w3id.org/def/wineRapOnto#wineryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/wineRapOnto#wineryName> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/def/wineRapOnto#Winery> .
+_:genid3 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/wineRapOnto#hasWinery> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/wineRapOnto#wineryName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/wineRapOnto#wineryName> <http://www.w3.org/2000/01/rdf-schema#comment> "Has a winery name" .
+<https://w3id.org/def/wineRapOnto#wineryName> <http://www.w3.org/2000/01/rdf-schema#label> "hasWineryName" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/def/wineRapOnto#Acid
+<https://w3id.org/def/wineRapOnto#Acid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Acid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#Acid> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/def/wineRapOnto#No_acid> .
+<https://w3id.org/def/wineRapOnto#Acid> <http://www.w3.org/2000/01/rdf-schema#comment> "Acid wines" .
+<https://w3id.org/def/wineRapOnto#Acid> <http://www.w3.org/2000/01/rdf-schema#label> "Acid" .
+# 
+# https://w3id.org/def/wineRapOnto#Acidity
+<https://w3id.org/def/wineRapOnto#Acidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Acidity> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid4 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/wineRapOnto#acidityValue> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/wineRapOnto#Acidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/wineRapOnto#Measurements> .
+<https://w3id.org/def/wineRapOnto#Acidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Acidity wine" .
+<https://w3id.org/def/wineRapOnto#Acidity> <http://www.w3.org/2000/01/rdf-schema#label> "Acidity" .
+# 
+# https://w3id.org/def/wineRapOnto#Body
+<https://w3id.org/def/wineRapOnto#Body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Body> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid5 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/wineRapOnto#bodyValue> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/wineRapOnto#Body> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/wineRapOnto#Measurements> .
+<https://w3id.org/def/wineRapOnto#Body> <http://www.w3.org/2000/01/rdf-schema#comment> "Body od wine" .
+<https://w3id.org/def/wineRapOnto#Body> <http://www.w3.org/2000/01/rdf-schema#label> "Body" .
+# 
+# https://w3id.org/def/wineRapOnto#Cheap
+<https://w3id.org/def/wineRapOnto#Cheap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Cheap> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/wineRapOnto#Price> .
+<https://w3id.org/def/wineRapOnto#Cheap> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/def/wineRapOnto#Expensive> .
+<https://w3id.org/def/wineRapOnto#Cheap> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/def/wineRapOnto#Normal> .
+<https://w3id.org/def/wineRapOnto#Cheap> <http://www.w3.org/2000/01/rdf-schema#comment> "Cheap wines" .
+<https://w3id.org/def/wineRapOnto#Cheap> <http://www.w3.org/2000/01/rdf-schema#label> "Cheap" .
+# 
+# https://w3id.org/def/wineRapOnto#Expensive
+<https://w3id.org/def/wineRapOnto#Expensive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Expensive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/wineRapOnto#Price> .
+<https://w3id.org/def/wineRapOnto#Expensive> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/def/wineRapOnto#Normal> .
+<https://w3id.org/def/wineRapOnto#Expensive> <http://www.w3.org/2000/01/rdf-schema#comment> "Expensive wines" .
+<https://w3id.org/def/wineRapOnto#Expensive> <http://www.w3.org/2000/01/rdf-schema#label> "Expensive" .
+# 
+# https://w3id.org/def/wineRapOnto#Heavy
+<https://w3id.org/def/wineRapOnto#Heavy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Heavy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/wineRapOnto#Body> .
+<https://w3id.org/def/wineRapOnto#Heavy> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/def/wineRapOnto#Light> .
+<https://w3id.org/def/wineRapOnto#Heavy> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/def/wineRapOnto#Medium> .
+<https://w3id.org/def/wineRapOnto#Heavy> <http://www.w3.org/2000/01/rdf-schema#comment> "Heavy level  of body" .
+<https://w3id.org/def/wineRapOnto#Heavy> <http://www.w3.org/2000/01/rdf-schema#label> "Heavy" .
+# 
+# https://w3id.org/def/wineRapOnto#High_acidity
+<https://w3id.org/def/wineRapOnto#High_acidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#High_acidity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/wineRapOnto#Acidity> .
+<https://w3id.org/def/wineRapOnto#High_acidity> <http://www.w3.org/2000/01/rdf-schema#comment> "High level of acidity" .
+<https://w3id.org/def/wineRapOnto#High_acidity> <http://www.w3.org/2000/01/rdf-schema#label> "High_acidity" .
+# 
+# https://w3id.org/def/wineRapOnto#Light
+<https://w3id.org/def/wineRapOnto#Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Light> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/wineRapOnto#Body> .
+<https://w3id.org/def/wineRapOnto#Light> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/def/wineRapOnto#Medium> .
+<https://w3id.org/def/wineRapOnto#Light> <http://www.w3.org/2000/01/rdf-schema#comment> "Light value of body" .
+<https://w3id.org/def/wineRapOnto#Light> <http://www.w3.org/2000/01/rdf-schema#label> "Light" .
+# 
+# https://w3id.org/def/wineRapOnto#Measurements
+<https://w3id.org/def/wineRapOnto#Measurements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Measurements> <http://www.w3.org/2000/01/rdf-schema#comment> "Measurements of wine cualities" .
+<https://w3id.org/def/wineRapOnto#Measurements> <http://www.w3.org/2000/01/rdf-schema#label> "Measurements" .
+# 
+# https://w3id.org/def/wineRapOnto#Medium
+<https://w3id.org/def/wineRapOnto#Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Medium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/wineRapOnto#Body> .
+<https://w3id.org/def/wineRapOnto#Medium> <http://www.w3.org/2000/01/rdf-schema#comment> "Medium level of body" .
+<https://w3id.org/def/wineRapOnto#Medium> <http://www.w3.org/2000/01/rdf-schema#label> "Medium" .
+# 
+# https://w3id.org/def/wineRapOnto#No_acid
+<https://w3id.org/def/wineRapOnto#No_acid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#No_acid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/wineRapOnto#Wine> .
+<https://w3id.org/def/wineRapOnto#No_acid> <http://www.w3.org/2000/01/rdf-schema#comment> "No acid wines" .
+<https://w3id.org/def/wineRapOnto#No_acid> <http://www.w3.org/2000/01/rdf-schema#label> "No_acid" .
+# 
+# https://w3id.org/def/wineRapOnto#Normal
+<https://w3id.org/def/wineRapOnto#Normal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Normal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/wineRapOnto#Price> .
+<https://w3id.org/def/wineRapOnto#Normal> <http://www.w3.org/2000/01/rdf-schema#comment> "Normal wine price" .
+<https://w3id.org/def/wineRapOnto#Normal> <http://www.w3.org/2000/01/rdf-schema#label> "Normal" .
+# 
+# https://w3id.org/def/wineRapOnto#Num_reviews
+<https://w3id.org/def/wineRapOnto#Num_reviews> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Num_reviews> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#positiveInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/wineRapOnto#hasNumReviewsValue> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/wineRapOnto#Num_reviews> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/wineRapOnto#Measurements> .
+<https://w3id.org/def/wineRapOnto#Num_reviews> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of reviews" .
+<https://w3id.org/def/wineRapOnto#Num_reviews> <http://www.w3.org/2000/01/rdf-schema#label> "Num_reviews" .
+# 
+# https://w3id.org/def/wineRapOnto#Price
+<https://w3id.org/def/wineRapOnto#Price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Price> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#float> .
+_:genid7 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/wineRapOnto#priceValue> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/wineRapOnto#Price> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/wineRapOnto#Measurements> .
+<https://w3id.org/def/wineRapOnto#Price> <http://www.w3.org/2000/01/rdf-schema#comment> "Price of wines" .
+<https://w3id.org/def/wineRapOnto#Price> <http://www.w3.org/2000/01/rdf-schema#label> "Price" .
+# 
+# https://w3id.org/def/wineRapOnto#Rating
+<https://w3id.org/def/wineRapOnto#Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Rating> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#float> .
+_:genid8 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/wineRapOnto#ratingValue> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/wineRapOnto#Rating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/wineRapOnto#Measurements> .
+<https://w3id.org/def/wineRapOnto#Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "Rating of wine" .
+<https://w3id.org/def/wineRapOnto#Rating> <http://www.w3.org/2000/01/rdf-schema#label> "Rating" .
+# 
+# https://w3id.org/def/wineRapOnto#Region
+<https://w3id.org/def/wineRapOnto#Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Region> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid9 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/wineRapOnto#regionName> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/wineRapOnto#Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine regions" .
+<https://w3id.org/def/wineRapOnto#Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region" .
+# 
+# https://w3id.org/def/wineRapOnto#Top
+<https://w3id.org/def/wineRapOnto#Top> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Top> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/wineRapOnto#Rating> .
+<https://w3id.org/def/wineRapOnto#Top> <http://www.w3.org/2000/01/rdf-schema#comment> "Top group of wines by rating" .
+<https://w3id.org/def/wineRapOnto#Top> <http://www.w3.org/2000/01/rdf-schema#label> "Top" .
+# 
+# https://w3id.org/def/wineRapOnto#Type
+<https://w3id.org/def/wineRapOnto#Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Type> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid10 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/wineRapOnto#typeName> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/wineRapOnto#Type> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of wines" .
+<https://w3id.org/def/wineRapOnto#Type> <http://www.w3.org/2000/01/rdf-schema#label> "Type" .
+# 
+# https://w3id.org/def/wineRapOnto#Wine
+<https://w3id.org/def/wineRapOnto#Wine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Wine> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid11 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/wineRapOnto#wineName> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/wineRapOnto#Wine> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid12 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/wineRapOnto#wineYear> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/wineRapOnto#Wine> <http://www.w3.org/2000/01/rdf-schema#comment> "Wines of Spain" .
+<https://w3id.org/def/wineRapOnto#Wine> <http://www.w3.org/2000/01/rdf-schema#label> "Wine" .
+# 
+# https://w3id.org/def/wineRapOnto#Winery
+<https://w3id.org/def/wineRapOnto#Winery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/wineRapOnto#Winery> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid13 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/wineRapOnto#wineryName> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/wineRapOnto#Winery> <http://www.w3.org/2000/01/rdf-schema#comment> "Cellar of a wine" .
+<https://w3id.org/def/wineRapOnto#Winery> <http://www.w3.org/2000/01/rdf-schema#label> "Winery" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/def/wineRapOnto#Arousa
+<https://w3id.org/def/wineRapOnto#Arousa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/wineRapOnto#Arousa> <https://w3id.org/def/wineRapOnto#wineName> "Arousa" .
+# 
+# https://w3id.org/def/wineRapOnto#Cuatro_Pasos
+<https://w3id.org/def/wineRapOnto#Cuatro_Pasos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/wineRapOnto#Cuatro_Pasos> <https://w3id.org/def/wineRapOnto#acidityValue> "3" .
+<https://w3id.org/def/wineRapOnto#Cuatro_Pasos> <https://w3id.org/def/wineRapOnto#bodyValue> "3" .
+<https://w3id.org/def/wineRapOnto#Cuatro_Pasos> <https://w3id.org/def/wineRapOnto#hasNumReviewsValue> "456456"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<https://w3id.org/def/wineRapOnto#Cuatro_Pasos> <https://w3id.org/def/wineRapOnto#priceValue> "9.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/def/wineRapOnto#Cuatro_Pasos> <https://w3id.org/def/wineRapOnto#wineName> "Cuatro Pasos" .
+<https://w3id.org/def/wineRapOnto#Cuatro_Pasos> <https://w3id.org/def/wineRapOnto#wineYear> "2023"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://w3id.org/def/wineRapOnto#Cuesta_de_Las_Liebres
+<https://w3id.org/def/wineRapOnto#Cuesta_de_Las_Liebres> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/wineRapOnto#Cuesta_de_Las_Liebres> <https://w3id.org/def/wineRapOnto#hasWinery> <https://w3id.org/def/wineRapOnto#Winery_1> .
+<https://w3id.org/def/wineRapOnto#Cuesta_de_Las_Liebres> <https://w3id.org/def/wineRapOnto#acidityValue> "5" .
+<https://w3id.org/def/wineRapOnto#Cuesta_de_Las_Liebres> <https://w3id.org/def/wineRapOnto#bodyValue> "5.0" .
+<https://w3id.org/def/wineRapOnto#Cuesta_de_Las_Liebres> <https://w3id.org/def/wineRapOnto#priceValue> "55.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/def/wineRapOnto#Cuesta_de_Las_Liebres> <https://w3id.org/def/wineRapOnto#wineryName> "" .
+# 
+# https://w3id.org/def/wineRapOnto#Marieta
+<https://w3id.org/def/wineRapOnto#Marieta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/wineRapOnto#Marieta> <https://w3id.org/def/wineRapOnto#acidityValue> "NA" .
+<https://w3id.org/def/wineRapOnto#Marieta> <https://w3id.org/def/wineRapOnto#bodyValue> "NA" .
+<https://w3id.org/def/wineRapOnto#Marieta> <https://w3id.org/def/wineRapOnto#hasNumReviewsValue> "454"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/def/wineRapOnto#Marieta> <https://w3id.org/def/wineRapOnto#priceValue> "10.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/def/wineRapOnto#Marieta> <https://w3id.org/def/wineRapOnto#ratingValue> "4.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/def/wineRapOnto#Marieta> <https://w3id.org/def/wineRapOnto#typeName> "Albariño" .
+<https://w3id.org/def/wineRapOnto#Marieta> <https://w3id.org/def/wineRapOnto#wineName> "Marieta" .
+<https://w3id.org/def/wineRapOnto#Marieta> <https://w3id.org/def/wineRapOnto#wineYear> "2022"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/def/wineRapOnto#Marieta> <https://w3id.org/def/wineRapOnto#wineryName> "Martin Codax" .
+# 
+# https://w3id.org/def/wineRapOnto#Martin_Codax_Espumoso
+<https://w3id.org/def/wineRapOnto#Martin_Codax_Espumoso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/wineRapOnto#Martin_Codax_Espumoso> <https://w3id.org/def/wineRapOnto#acidityValue> "3" .
+<https://w3id.org/def/wineRapOnto#Martin_Codax_Espumoso> <https://w3id.org/def/wineRapOnto#bodyValue> "3" .
+<https://w3id.org/def/wineRapOnto#Martin_Codax_Espumoso> <https://w3id.org/def/wineRapOnto#hasNumReviewsValue> "3444"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<https://w3id.org/def/wineRapOnto#Martin_Codax_Espumoso> <https://w3id.org/def/wineRapOnto#priceValue> "1002.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/def/wineRapOnto#Martin_Codax_Espumoso> <https://w3id.org/def/wineRapOnto#ratingValue> "4.9"^^<http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/def/wineRapOnto#Martin_Codax_Espumoso> <https://w3id.org/def/wineRapOnto#wineName> "Martin Codax Espumoso" .
+<https://w3id.org/def/wineRapOnto#Martin_Codax_Espumoso> <https://w3id.org/def/wineRapOnto#wineYear> "2022"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/def/wineRapOnto#Martin_Codax_Espumoso> <http://www.w3.org/2000/01/rdf-schema#label> "Martin_Codax_Espumoso" .
+# 
+# https://w3id.org/def/wineRapOnto#Winery_1
+<https://w3id.org/def/wineRapOnto#Winery_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/wineRapOnto#Winery_1> <https://w3id.org/def/wineRapOnto#wineryName> "Pago de Carraovejas" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid102 <http://www.w3.org/2003/11/swrl#body> _:genid109 .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid107 .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid103 .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid104 .
+_:genid104 <http://www.w3.org/2003/11/swrl#arguments> _:genid106 .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid105 .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "100"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid104 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+<http://www.w3.org/2003/11/swrlb#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid108 .
+_:genid108 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid108 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid108 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/wineRapOnto#priceValue> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid110 .
+_:genid110 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid110 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Price> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid102 <http://www.w3.org/2003/11/swrl#head> _:genid111 .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid112 .
+_:genid112 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid112 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Expensive> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid113 <http://www.w3.org/2003/11/swrl#body> _:genid120 .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid118 .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid114 .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid115 .
+_:genid115 <http://www.w3.org/2003/11/swrl#arguments> _:genid117 .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid116 .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid115 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> .
+<http://www.w3.org/2003/11/swrlb#lessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid119 .
+_:genid119 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid119 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid119 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/wineRapOnto#priceValue> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid121 .
+_:genid121 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid121 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Price> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid113 <http://www.w3.org/2003/11/swrl#head> _:genid122 .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid123 .
+_:genid123 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid123 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Cheap> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid124 <http://www.w3.org/2003/11/swrl#body> _:genid131 .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129 .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid125 .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid126 .
+_:genid126 <http://www.w3.org/2003/11/swrl#arguments> _:genid128 .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid127 .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4.8"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid126 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid130 .
+_:genid130 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid130 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid130 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/wineRapOnto#ratingValue> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid132 .
+_:genid132 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid132 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Rating> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid124 <http://www.w3.org/2003/11/swrl#head> _:genid133 .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid134 .
+_:genid134 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid134 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Top> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid135 <http://www.w3.org/2003/11/swrl#body> _:genid138 .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid136 .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid137 .
+_:genid137 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid137 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid137 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/wineRapOnto#wineryName> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid139 .
+_:genid139 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid139 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Wine> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid135 <http://www.w3.org/2003/11/swrl#head> _:genid140 .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid141 .
+_:genid141 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#w> .
+_:genid141 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Winery> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid14 <http://www.w3.org/2003/11/swrl#body> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid16 .
+_:genid16 <http://www.w3.org/2003/11/swrl#arguments> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "1" .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#equal> .
+<http://www.w3.org/2003/11/swrlb#equal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid20 .
+_:genid20 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid20 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid20 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/wineRapOnto#acidityValue> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid22 .
+_:genid22 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid22 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Acidity> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid14 <http://www.w3.org/2003/11/swrl#head> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid24 .
+_:genid24 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid24 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#No_acid> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid25 <http://www.w3.org/2003/11/swrl#body> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid27 .
+_:genid27 <http://www.w3.org/2003/11/swrl#arguments> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "2" .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#equal> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
+_:genid31 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid31 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid31 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/wineRapOnto#acidityValue> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid33 .
+_:genid33 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid33 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Acidity> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid25 <http://www.w3.org/2003/11/swrl#head> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid35 .
+_:genid35 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid35 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#No_acid> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid36 <http://www.w3.org/2003/11/swrl#body> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38 .
+_:genid38 <http://www.w3.org/2003/11/swrl#arguments> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "3" .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#equal> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid42 .
+_:genid42 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid42 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid42 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/wineRapOnto#acidityValue> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid44 .
+_:genid44 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid44 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Acidity> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid36 <http://www.w3.org/2003/11/swrl#head> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid46 .
+_:genid46 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid46 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Acid> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid47 <http://www.w3.org/2003/11/swrl#body> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid49 .
+_:genid49 <http://www.w3.org/2003/11/swrl#arguments> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "3" .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#equal> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid53 .
+_:genid53 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid53 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid53 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/wineRapOnto#acidityValue> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid55 .
+_:genid55 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid55 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Acidity> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid47 <http://www.w3.org/2003/11/swrl#head> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid57 .
+_:genid57 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid57 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#High_acidity> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid58 <http://www.w3.org/2003/11/swrl#body> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid60 .
+_:genid60 <http://www.w3.org/2003/11/swrl#arguments> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "5" .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#equal> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64 .
+_:genid64 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid64 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid64 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/wineRapOnto#hasBody> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid66 .
+_:genid66 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid66 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Body> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid58 <http://www.w3.org/2003/11/swrl#head> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid68 .
+_:genid68 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid68 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Heavy> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid69 <http://www.w3.org/2003/11/swrl#body> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid71 .
+_:genid71 <http://www.w3.org/2003/11/swrl#arguments> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "2" .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid71 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#equal> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid75 .
+_:genid75 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid75 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid75 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/wineRapOnto#bodyValue> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid77 .
+_:genid77 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid77 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Body> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid69 <http://www.w3.org/2003/11/swrl#head> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid79 .
+_:genid79 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid79 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Light> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid80 <http://www.w3.org/2003/11/swrl#body> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid82 .
+_:genid82 <http://www.w3.org/2003/11/swrl#arguments> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "3" .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid82 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#equal> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid86 .
+_:genid86 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid86 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid86 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/wineRapOnto#bodyValue> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid88 .
+_:genid88 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid88 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Body> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid80 <http://www.w3.org/2003/11/swrl#head> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid90 .
+_:genid90 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid90 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Light> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid91 <http://www.w3.org/2003/11/swrl#body> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid92 .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid93 .
+_:genid93 <http://www.w3.org/2003/11/swrl#arguments> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4" .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid93 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#equal> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid97 .
+_:genid97 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid97 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid97 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/wineRapOnto#bodyValue> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid99 .
+_:genid99 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid99 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Body> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid91 <http://www.w3.org/2003/11/swrl#head> _:genid100 .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid101 .
+_:genid101 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid101 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/wineRapOnto#Medium> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
